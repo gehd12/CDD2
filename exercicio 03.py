@@ -1,0 +1,6 @@
+nome = input("digite seu nome")
+idade = int(input("digite sua iadade"))
+salario = float(input("digite se salario"))
+idade = ((idade)*12)
+salario = ((salario)*1.1)
+print(f"ola, me chamo {nome}, tenho {idade} meses e recebo {salario}")
